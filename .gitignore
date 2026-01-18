@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+node_modules/
+dist/
+.next/
+out/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data
+*.json.bak
+data/raw/
+data/processed/
+backend/data/rank_*.json
+
+# Sensitive docs (API documentation, crawler details)
+docs/game_rank_crawler.txt
+docs/game_page_crawler.txt
+docs/game_score_crawler.txt
+docs/game_rank_data.json
+docs/game_page_data.json
+docs/game_score_data.json
+docs/depre-game_clawer_api.txt
+docs/Untitled
+docs/榜单ID.txt
+docs/Request.txt
